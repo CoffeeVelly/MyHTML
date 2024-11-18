@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 18 Nov 2024 17:27:08 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 18 Nov 2024 17:27:06 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[一、函数极限七种类型题：]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br>采用洛必达法则：<br>
+如果两次求导都无法求出结果建议更换方法<br>在处理型同时使用等价无穷小替换来使一些复杂的式子让求导变得更为简单<br>在处理型同时使用抓大头的方法来简化多项式，接下来介绍抓大头：<br>
+当时，，<br>
+则时，。<br>
+简单而言，谁增长速度快，就取谁，其他的项都丢掉<br>型可以化为(即)或(即)来进行计算<br>例题(1)  <br>
+解：<br>
+第一步，检查题目类型：型<br>
+第二步，无穷小替换+洛必达法则<br>
+方法1，仅使用洛必达法则：<br>
+		方法2，使用了无穷小替换+洛必达法则：<br>
+例题(2)  <br>
+解：<br>
+第一步，检查题目类型：型<br>
+第二步，无穷小替换+洛必达法则<br>
+例题(3)  <br>
+解：<br>
+第一步，检查题目类型：<br>
+第二步，洛必达法则<br>
+列题(4)  <br>
+解：<br>
+第一步，检查题目类型：<br>
+第二步，变形+洛必达法则<br>
+例题(5)  <br>
+解：<br>
+第一步，检查题目类型：<br>
+第二步，变形+洛必达法则<br>
+<br><br>型可以使用万能公式法，公式为：<br><br>以下是公式推导过程：<br><br>由于e是初等函数，lim可以和e交换位置：<br><br>由于属于型，则，有：<br><br>最后一个式子替换到倒数第二个式子中即可得到万能公式的结果。<br>另外两个类型直接使用抬底法，即:<br><br>因为此处的所以并不能使用万能公式。<br>
+例题(1)  <br>
+解：<br>
+第一步，检查题目类型：<br>
+第二步，使用万能公式<br>
+例题(2)  <br>
+解：<br>
+第一步，检查题目类型：<br>
+第二步，使用抬底法<br>
+例题(3)  <br>
+解：<br>
+第一步，检查题目类型：<br>
+第二步，使用抬底法<br>
+<br><br><br>定义：对于数列，，且，则。<br>
+对于求n项和的数列极限：我们使用放缩法+夹逼准则。<br>例题 设数列，求。<br>
+解：<br>
+第一步，放缩：<br>
+将所有项的分母变为最小的值，分母越小，整体越大。<br>
+			 将所有项的分母变为最大的值，分母越大，整体越小。<br>
+		第二步，求两边数列极限值：<br>
+，通过抓大头去掉了分子的常数项和分母的一次项。<br>
+，同理。<br>
+我们可以发现：，因此我们可以根据夹逼准则得到结果：<br>
+。<br><br>例题  设<br>
+（1）证明：存在；<br>
+解：<br>
+第一步，证明单调性<br>
+				而<br>
+				 所以的符号由决定，以此类推，最终由决定，即，数列单调递减。<br>
+第二步，证明数列有界<br>
+因为，所以必然大于，因此数列有下界。<br>
+总结第一步和第二步，根据数列单调有界必有极限，可以知道必然存在。<br>
+(2)求。<br>
+解：<br>
+因为极限存在，设且有，两边同时求极限：<br>
+<br>
+而即：<br>
+			由此可得结果：。]]></description><link>Notes\极限与连续（一）.html</link><guid isPermaLink="false">Notes/极限与连续（一）.md</guid><pubDate>Mon, 18 Nov 2024 15:28:35 GMT</pubDate></item></channel></rss>
